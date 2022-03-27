@@ -1,0 +1,150 @@
+body{
+    background-image: url("sudozak.jpg");
+    color: white;
+}
+.hidden {
+    display : none;
+}
+
+body.dark {
+    background-color: #333333;
+    background-color: black;
+    background-image: none;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+h1 {
+    font-size: 75pt;
+    font-family: 'Common Pixel', sans-serif;
+    background: -webkit-linear-gradient(-86deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
+    -webkit-background-clip: text;
+    background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    -webkit-text-stroke: 4px transparent;
+    color: #232d2d;   
+}
+h3 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+#setup-game {
+    display: flex;
+    justify-content: center;
+    font-family: 'Share-TechMono', sans-serif;
+}
+#setup-game > *{
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+  justify-self: center;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  font-family: 'Common Pixel', sans-serif;
+}
+button:hover,
+button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+button:active {
+  opacity: .5;
+}
+
+p#timer, p#lives {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#game {
+    display: flex;
+    justify-content: center;
+}
+#number-container > * {
+    border: 1px solid gray;
+    border-radius: 20%;
+    width: 60px;
+    height: 60px;
+    font-size: 40pt;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+#board {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+}
+.tile {
+    border: 1px solid gray;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0px;
+    vertical-align: middle;
+    font-size: 40pt;
+}
+
+p.selected {
+    background-color: green;
+
+}
+p.incorrect {
+    color: red;
+}
+.rightBorder {
+    border-right: 4px solid gray;
+}
+.bottomBorder {
+    border-bottom: 4px solid gray;
+}
+footer {
+    background-color: lightgray;
+    text-align: center;
+}
+label {
+    font-size: 20px;
+}
+.stats {
+    font-family: 'Share-TechMono', sans-serif;          
+    
+}
+.game {
+    font-family: 'Share-TechMono', sans-serif; 
+}

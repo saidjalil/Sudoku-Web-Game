@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link href="http://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/share-techmono-2" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="sj.js"></script>
+</head>
+<header>
+    <h1>Sudoku</h1>
+    <div id="setup-game">
+        <div id="diff">
+            <h3>Diff: </h3>
+            <label><input id="diff-1" type="radio" name="diff" value="easy" class="radio" checked> easy</label>
+            <label><input id="diff-2" type="radio" name="diff" value="medium" class="radio"> medium</label>
+            <label><input id="diff-3" type="radio" name="diff" value="hard" class="radio"> hard</label>
+        </div>
+        <div id="time">
+            <h3> Time: </h3>
+            <label><input id="time-1" type="radio" name="time" value="three" class="radio" checked> 3m</label>
+            <label><input id="time-2" type="radio" name="time" value="five" class="radio"> 5m</label>
+            <label><input id="time-3" type="radio" name="time" value="ten" class="radio"> 10m</label>
+        </div>
+    </div>
+    <button id="start-btn">New game </button>
+</header>
+<body>
+    <div id="stats" class="stats">
+        <p id="timer"></p>
+        <p id="lives"></p>
+    </div>
+    <div id="game" class="game">
+        <div id="board"></div>
+        <div id="number-container" class="hidden">
+            <p id="one">1</p>
+            <p id="two">2</p>
+            <p id="three">3</p>
+            <p id="four">4</p>
+            <p id="five">5</p>
+            <p id="six">6</p>
+            <p id="seven">7</p>
+            <p id="eight">8</p>
+            <p id="nine">9</p>
+        </div>
+    </div>
+    
+</body>
+<footer>
+</footer>
+</html>
