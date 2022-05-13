@@ -61,11 +61,9 @@ button {
   outline: 0;
   padding: 12px 14px;
   text-align: center;
-  text-rendering: geometricprecision;
   text-transform: none;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
   vertical-align: middle;
   font-family: 'Common Pixel', sans-serif;
 }
@@ -77,7 +75,7 @@ button:active {
 }
 
 button:active {
-  opacity: .5;
+    opacity: .5;
 }
 
 p#timer, p#lives {
